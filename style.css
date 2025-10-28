@@ -158,9 +158,16 @@ header p {
     }
 }
 
-.tarjeta-vino:hover {
+.tarjeta-vino:hover,
+.tarjeta-vino:focus {
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.tarjeta-vino:focus {
+    outline: 3px solid #722f37;
+    outline-offset: 2px;
 }
 
 .tarjeta-vino img {

@@ -112,13 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Función para inicializar la aplicación
     function cargarVinos() {
-        // Mostrar un estado de carga
-        contenedorVinos.innerHTML = '<div class="mensaje-cargando">Cargando vinos...</div>';
-        
-        // Simular un pequeño retraso para mostrar el estado de carga
-        setTimeout(() => {
-            mostrarVinos(todosLosVinos); // Mostrar todos al inicio
-        }, 300);
+        mostrarVinos(todosLosVinos); // Mostrar todos inmediatamente
     }
 
     // 3. Función para "pintar" los vinos en el HTML
@@ -145,6 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
         vinos.forEach((vino, index) => {
             const tarjeta = document.createElement('div');
             tarjeta.classList.add('tarjeta-vino');
+            tarjeta.setAttribute('tabindex', '0');
+            tarjeta.setAttribute('role', 'article');
+            tarjeta.setAttribute('aria-label', `${vino.nombre} de ${vino.bodega}`);
             // Añadir animación de entrada escalonada
             tarjeta.style.animationDelay = `${index * 0.05}s`;
             
@@ -160,6 +157,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="precio">${vino.precio.toFixed(2)} €</p>
                 </div>
             `;
+            
+            // Agregar soporte para navegación por teclado
+            tarjeta.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    tarjeta.click();
+                }
+            });
+            
             contenedorVinos.appendChild(tarjeta);
         });
     }
