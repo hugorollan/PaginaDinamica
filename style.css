@@ -1,0 +1,195 @@
+/* Reset y estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #722f37 0%, #8b3a47 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+    display: flex;
+    max-width: 1400px;
+    margin: 2rem auto;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+/* Aside - Filtros */
+#filtros {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
+}
+
+#filtros h2 {
+    color: #722f37;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #722f37;
+    padding-bottom: 0.5rem;
+}
+
+.filtro-grupo {
+    margin-bottom: 1.5rem;
+}
+
+.filtro-grupo label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.filtro-grupo select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.filtro-grupo select:hover {
+    border-color: #722f37;
+}
+
+.filtro-grupo select:focus {
+    outline: none;
+    border-color: #722f37;
+    box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.1);
+}
+
+/* Catálogo de vinos */
+#catalogo-vinos {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    align-content: start;
+}
+
+/* Tarjetas de vino */
+.tarjeta-vino {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.tarjeta-vino:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta-vino img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.tarjeta-vino h3 {
+    padding: 1rem 1rem 0.5rem;
+    color: #722f37;
+    font-size: 1.3rem;
+}
+
+.tarjeta-vino p {
+    padding: 0.25rem 1rem;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.tarjeta-vino p strong {
+    color: #333;
+}
+
+.tarjeta-vino .precio {
+    padding: 0.75rem 1rem 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #722f37;
+}
+
+/* Mensaje cuando no hay resultados */
+.mensaje-vacio {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 10px;
+    color: #999;
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contenedor-principal {
+        flex-direction: column;
+    }
+
+    #filtros {
+        position: static;
+        min-width: auto;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #catalogo-vinos {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #catalogo-vinos {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .tarjeta-vino img {
+        height: 250px;
+    }
+}

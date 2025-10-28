@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vinos Españoles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vinos de España</h1>
+        <p>Descubre nuestra selección de vinos españoles</p>
+    </header>
+
+    <div class="contenedor-principal">
+        <aside id="filtros">
+            <h2>Filtrar Vinos</h2>
+            
+            <div class="filtro-grupo">
+                <label for="filtro-region">Región:</label>
+                <select id="filtro-region">
+                    <option value="todas">Todas las regiones</option>
+                    <option value="Rioja">Rioja</option>
+                    <option value="Ribera del Duero">Ribera del Duero</option>
+                    <option value="Cataluña">Cataluña</option>
+                    <option value="Rueda">Rueda</option>
+                    <option value="Rías Baixas">Rías Baixas</option>
+                    <option value="Jerez">Jerez</option>
+                </select>
+            </div>
+
+            <div class="filtro-grupo">
+                <label for="filtro-tipo">Tipo:</label>
+                <select id="filtro-tipo">
+                    <option value="todos">Todos los tipos</option>
+                    <option value="Tinto">Tinto</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Rosado">Rosado</option>
+                    <option value="Espumoso">Espumoso</option>
+                </select>
+            </div>
+        </aside>
+
+        <main id="catalogo-vinos">
+            <!-- Los vinos se cargarán dinámicamente aquí -->
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nombre": "Marqués de Riscal Reserva",
+    "bodega": "Marqués de Riscal",
+    "region": "Rioja",
+    "tipo": "Tinto",
+    "uva": "Tempranillo",
+    "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=600&fit=crop",
+    "precio": 18.50
+  },
+  {
+    "id": 2,
+    "nombre": "Viña Sol",
+    "bodega": "Torres",
+    "region": "Cataluña",
+    "tipo": "Blanco",
+    "uva": "Parellada",
+    "imagen": "https://images.unsplash.com/photo-1474722883778-ab3ea2e8d1e4?w=400&h=600&fit=crop",
+    "precio": 7.20
+  },
+  {
+    "id": 3,
+    "nombre": "Protos Crianza",
+    "bodega": "Bodegas Protos",
+    "region": "Ribera del Duero",
+    "tipo": "Tinto",
+    "uva": "Tempranillo",
+    "imagen": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=600&fit=crop",
+    "precio": 16.90
+  },
+  {
+    "id": 4,
+    "nombre": "Verdejo Rueda",
+    "bodega": "Bodegas Menade",
+    "region": "Rueda",
+    "tipo": "Blanco",
+    "uva": "Verdejo",
+    "imagen": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400&h=600&fit=crop",
+    "precio": 9.50
+  },
+  {
+    "id": 5,
+    "nombre": "Tío Pepe",
+    "bodega": "González Byass",
+    "region": "Jerez",
+    "tipo": "Blanco",
+    "uva": "Palomino",
+    "imagen": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=400&h=600&fit=crop",
+    "precio": 12.30
+  },
+  {
+    "id": 6,
+    "nombre": "Viña Pomal Reserva",
+    "bodega": "Bodegas Bilbaínas",
+    "region": "Rioja",
+    "tipo": "Tinto",
+    "uva": "Tempranillo",
+    "imagen": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=400&h=600&fit=crop",
+    "precio": 14.80
+  },
+  {
+    "id": 7,
+    "nombre": "Gramona Imperial",
+    "bodega": "Gramona",
+    "region": "Cataluña",
+    "tipo": "Espumoso",
+    "uva": "Xarel·lo",
+    "imagen": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=400&h=600&fit=crop",
+    "precio": 22.50
+  },
+  {
+    "id": 8,
+    "nombre": "Rosado de Lágrima",
+    "bodega": "Bodegas Muga",
+    "region": "Rioja",
+    "tipo": "Rosado",
+    "uva": "Garnacha",
+    "imagen": "https://images.unsplash.com/photo-1586370434639-0fe43b2d32d6?w=400&h=600&fit=crop",
+    "precio": 11.20
+  },
+  {
+    "id": 9,
+    "nombre": "Emilio Moro",
+    "bodega": "Bodegas Emilio Moro",
+    "region": "Ribera del Duero",
+    "tipo": "Tinto",
+    "uva": "Tempranillo",
+    "imagen": "https://images.unsplash.com/photo-1598533526265-82d58c707e38?w=400&h=600&fit=crop",
+    "precio": 19.90
+  },
+  {
+    "id": 10,
+    "nombre": "Albariño Pazo",
+    "bodega": "Bodegas del Pazo",
+    "region": "Rías Baixas",
+    "tipo": "Blanco",
+    "uva": "Albariño",
+    "imagen": "https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?w=400&h=600&fit=crop",
+    "precio": 13.40
+  }
+]
