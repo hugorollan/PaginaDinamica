@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=600&fit=crop",
+            "imagen": "https://tienda.marquesderiscal.com/media/catalog/product/cache/b04855209f3f211c08fd4858c18151cc/r/e/reserva_0009_fondo-de-_marqu_s-de-riscal-reserva-front-2025_-eliminado-copia-10_2.jpg",
             "precio": 18.50
         },
         {
