@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Priorat",
             "tipo": "Tinto",
             "uva": "Garnacha",
-            "imagen": "https://images.unsplash.com/photo-1602266950808-28d77a3c2a38?w=400&h=600&fit=crop",
+            "imagen": "https://labodega-gourmet.com/cdn/shop/files/mas-doix-salanques-2022.png?v=1760695455&width=3840",
             "precio": 45.00
         },
         {
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Jerez",
             "tipo": "Blanco",
             "uva": "Palomino",
-            "imagen": "https://images.unsplash.com/photo-1558346548-54b8e1d03d3c?w=400&h=600&fit=crop",
+            "imagen": "https://lustau.es/wp-content/uploads/2021/01/amontillado_lustau-solera-familiar_los-arcos.jpg",
             "precio": 15.90
         },
         {
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1553361371-d1d3d6710303?w=400&h=600&fit=crop",
+            "imagen": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/marques-murrieta-reserva-magnum-con-estuche_1_1_2_1_1.jpg",
             "precio": 23.50
         },
         {
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Espumoso",
             "uva": "Xarel·lo",
-            "imagen": "https://images.unsplash.com/photo-1558346489-19413928158b?w=400&h=600&fit=crop",
+            "imagen": "https://www.decantalo.com/es/72403-large_default/raventos-i-blanc-blanc-de-blancs.jpg",
             "precio": 18.90
         },
         {
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Campo de Borja",
             "tipo": "Tinto",
             "uva": "Garnacha",
-            "imagen": "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400&h=600&fit=crop",
+            "imagen": "https://tienda.bodegasborsao.com/cdn/shop/files/BorsaoTresPicos_e3fcef69-f524-4014-98d7-5e800c442dda.png?v=1726826308",
             "precio": 16.20
         },
         {
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Espumoso",
             "uva": "Macabeo",
-            "imagen": "https://images.unsplash.com/photo-1621289675997-b3cfc8e5a2ae?w=400&h=600&fit=crop",
+            "imagen": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202101/14/00113356100381____4__1200x1200.jpg",
             "precio": 14.50
         },
         {
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=400&h=600&fit=crop",
+            "imagen": "https://www.bodeboca.com/sites/default/files/wines/2022-11/bot-remirez-de-ganuza-reserva-2010.jpg",
             "precio": 32.00
         },
         {
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rías Baixas",
             "tipo": "Blanco",
             "uva": "Albariño",
-            "imagen": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=400&h=600&fit=crop",
+            "imagen": "https://www.campoluzenoteca.com/13649-large_default/pazo-senorans-albarino-2024.jpg",
             "precio": 19.50
         },
         {
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Castilla y León",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1582476563097-d2dcfe1dce12?w=400&h=600&fit=crop",
+            "imagen": "https://www.bodeboca.com/sites/default/files/wines/2025-07/bot-abadia-retuerta-seleccion-especial-2021.png",
             "precio": 19.90
         }
     ];
