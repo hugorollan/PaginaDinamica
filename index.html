@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Vinos Españoles</title>
+    <meta name="description" content="Catálogo de vinos españoles premium. Descubre nuestra selección de vinos tintos, blancos, rosados y espumosos de las mejores regiones de España.">
+    <meta name="keywords" content="vinos españoles, vinos de España, Rioja, Ribera del Duero, catálogo de vinos, comprar vino">
+    <meta name="author" content="Vinos de España">
+    <title>Catálogo de Vinos Españoles - Vinos Premium de España</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Vinos de España</h1>
-        <p>Descubre nuestra selección de vinos españoles</p>
+        <p>Descubre nuestra selección de vinos españoles premium</p>
     </header>
 
     <div class="contenedor-principal">
-        <aside id="filtros">
+        <aside id="filtros" aria-label="Filtros de búsqueda">
             <h2>Filtrar Vinos</h2>
             
             <div class="filtro-grupo">
                 <label for="filtro-region">Región:</label>
-                <select id="filtro-region">
+                <select id="filtro-region" aria-label="Filtrar por región">
                     <option value="todas">Todas las regiones</option>
                     <option value="Rioja">Rioja</option>
                     <option value="Ribera del Duero">Ribera del Duero</option>
@@ -31,7 +34,7 @@
 
             <div class="filtro-grupo">
                 <label for="filtro-tipo">Tipo:</label>
-                <select id="filtro-tipo">
+                <select id="filtro-tipo" aria-label="Filtrar por tipo de vino">
                     <option value="todos">Todos los tipos</option>
                     <option value="Tinto">Tinto</option>
                     <option value="Blanco">Blanco</option>
@@ -41,7 +44,7 @@
             </div>
         </aside>
 
-        <main id="catalogo-vinos">
+        <main id="catalogo-vinos" role="main" aria-label="Catálogo de vinos">
             <!-- Los vinos se cargarán dinámicamente aquí -->
         </main>
     </div>
