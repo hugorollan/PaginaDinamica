@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Blanco",
             "uva": "Parellada",
-            "imagen": "https://images.unsplash.com/photo-1597690589170-28c7f6a7f1ae?w=400&h=600&fit=crop",
+            "imagen": "https://casapablo.es/tienda/15239-superlarge_default/vina-sol-2023.jpg",
             "precio": 7.20
         },
         {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1601257877711-658bd4f1f4dc?w=400&h=600&fit=crop",
+            "imagen": "https://tienda.bodegasprotos.com/237-large_default/protos-crianza-2020.jpg",
             "precio": 16.90
         },
         {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rueda",
             "tipo": "Blanco",
             "uva": "Verdejo",
-            "imagen": "https://images.unsplash.com/photo-1598027944300-81e339c9c53e?w=400&h=600&fit=crop",
+            "imagen": "https://bodegas.bio/wp-content/uploads/2022/02/menade-verdejo-2020.png",
             "precio": 9.50
         },
         {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Jerez",
             "tipo": "Blanco",
             "uva": "Palomino",
-            "imagen": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=400&h=600&fit=crop",
+            "imagen": "https://www.bodeboca.com/sites/default/files/wines/2022-06/bot-tiopepe-palominofino.jpg",
             "precio": 12.30
         },
         {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1566754436474-ca25f8f22028?w=400&h=600&fit=crop",
+            "imagen": "https://www.15bodegas.com/media/catalog/product/b/o/botella-pomal-reserva-nuevo.jpg",
             "precio": 14.80
         },
         {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Espumoso",
             "uva": "Xarel·lo",
-            "imagen": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400&h=600&fit=crop",
+            "imagen": "https://bodegas.bio/wp-content/uploads/2022/02/imperial-gramona.png",
             "precio": 22.50
         },
         {
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Rosado",
             "uva": "Garnacha",
-            "imagen": "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=400&h=600&fit=crop",
+            "imagen": "https://www.vinosbaco.com/wp-content/uploads/2024/05/30057_MugaRosado-scaled.jpg",
             "precio": 11.20
         },
         {
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1608886866022-97c2bf65d1aa?w=400&h=600&fit=crop",
+            "imagen": "https://www.emiliomoro.com/wp-content/uploads/2024/06/PDP_75cl_EMILIO-MORO-1.png",
             "precio": 19.90
         },
         {
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rías Baixas",
             "tipo": "Blanco",
             "uva": "Albariño",
-            "imagen": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=400&h=600&fit=crop",
+            "imagen": "https://pazobaion.com/wp-content/uploads/2022/10/Pazo-Baion-2019-TT-683x1024-1.webp",
             "precio": 13.40
         },
         {
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=400&h=600&fit=crop",
+            "imagen": "https://petramora.com/cdn/shop/files/w-55000410-vega-sicilia-unico-2014_44956a81-2fc6-475b-af76-31dfc21df7e9.jpg?crop=center&height=2433&v=1731058274&width=1946",
             "precio": 285.00
         },
         {
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=600&fit=crop",
+            "imagen": "https://www.vinorema.com/4950-large_default/pesquera-crianza-regalo-bdgas-alejandro-fernandez-tinto-pesquera-sl.jpg",
             "precio": 21.80
         },
         {
