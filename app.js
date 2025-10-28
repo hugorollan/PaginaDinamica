@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=600&fit=crop",
             "precio": 18.50
         },
         {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Blanco",
             "uva": "Parellada",
-            "imagen": "https://images.unsplash.com/photo-1474722883778-ab3ea2e8d1e4?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1597690589170-28c7f6a7f1ae?w=400&h=600&fit=crop",
             "precio": 7.20
         },
         {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1601257877711-658bd4f1f4dc?w=400&h=600&fit=crop",
             "precio": 16.90
         },
         {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rueda",
             "tipo": "Blanco",
             "uva": "Verdejo",
-            "imagen": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1598027944300-81e339c9c53e?w=400&h=600&fit=crop",
             "precio": 9.50
         },
         {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1566754436474-ca25f8f22028?w=400&h=600&fit=crop",
             "precio": 14.80
         },
         {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Cataluña",
             "tipo": "Espumoso",
             "uva": "Xarel·lo",
-            "imagen": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400&h=600&fit=crop",
             "precio": 22.50
         },
         {
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Rosado",
             "uva": "Garnacha",
-            "imagen": "https://images.unsplash.com/photo-1586370434639-0fe43b2d32d6?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=400&h=600&fit=crop",
             "precio": 11.20
         },
         {
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Ribera del Duero",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1598533526265-82d58c707e38?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1608886866022-97c2bf65d1aa?w=400&h=600&fit=crop",
             "precio": 19.90
         },
         {
@@ -101,8 +101,208 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rías Baixas",
             "tipo": "Blanco",
             "uva": "Albariño",
-            "imagen": "https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?w=400&h=600&fit=crop",
+            "imagen": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=400&h=600&fit=crop",
             "precio": 13.40
+        },
+        {
+            "id": 11,
+            "nombre": "Vega Sicilia Único",
+            "bodega": "Bodegas Vega Sicilia",
+            "region": "Ribera del Duero",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=400&h=600&fit=crop",
+            "precio": 285.00
+        },
+        {
+            "id": 12,
+            "nombre": "Pesquera Crianza",
+            "bodega": "Bodegas Alejandro Fernández",
+            "region": "Ribera del Duero",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=600&fit=crop",
+            "precio": 21.80
+        },
+        {
+            "id": 13,
+            "nombre": "Cune Crianza",
+            "bodega": "CVNE",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400&h=600&fit=crop",
+            "precio": 12.50
+        },
+        {
+            "id": 14,
+            "nombre": "Martín Códax Albariño",
+            "bodega": "Martín Códax",
+            "region": "Rías Baixas",
+            "tipo": "Blanco",
+            "uva": "Albariño",
+            "imagen": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=600&fit=crop",
+            "precio": 11.90
+        },
+        {
+            "id": 15,
+            "nombre": "Faustino I Gran Reserva",
+            "bodega": "Bodegas Faustino",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1474722883778-ab3ea2e8d1e4?w=400&h=600&fit=crop",
+            "precio": 28.90
+        },
+        {
+            "id": 16,
+            "nombre": "La Rioja Alta 904",
+            "bodega": "La Rioja Alta",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=400&h=600&fit=crop",
+            "precio": 42.00
+        },
+        {
+            "id": 17,
+            "nombre": "Manzanilla La Guita",
+            "bodega": "Bodegas Hidalgo",
+            "region": "Jerez",
+            "tipo": "Blanco",
+            "uva": "Palomino",
+            "imagen": "https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?w=400&h=600&fit=crop",
+            "precio": 8.90
+        },
+        {
+            "id": 18,
+            "nombre": "Pintia",
+            "bodega": "Bodegas Pintia",
+            "region": "Toro",
+            "tipo": "Tinto",
+            "uva": "Tinta de Toro",
+            "imagen": "https://images.unsplash.com/photo-1586370434639-0fe43b2d32d6?w=400&h=600&fit=crop",
+            "precio": 38.50
+        },
+        {
+            "id": 19,
+            "nombre": "Godello Valdeorras",
+            "bodega": "Bodegas Godeval",
+            "region": "Valdeorras",
+            "tipo": "Blanco",
+            "uva": "Godello",
+            "imagen": "https://images.unsplash.com/photo-1598533526265-82d58c707e38?w=400&h=600&fit=crop",
+            "precio": 14.20
+        },
+        {
+            "id": 20,
+            "nombre": "Viña Ardanza Reserva",
+            "bodega": "La Rioja Alta",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1551318181-655e8a710f0c?w=400&h=600&fit=crop",
+            "precio": 24.50
+        },
+        {
+            "id": 21,
+            "nombre": "Yllera 5.5 Rosado",
+            "bodega": "Grupo Yllera",
+            "region": "Rueda",
+            "tipo": "Rosado",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1585553616434-c10826f01b7c?w=400&h=600&fit=crop",
+            "precio": 6.80
+        },
+        {
+            "id": 22,
+            "nombre": "Priorat Mas Doix",
+            "bodega": "Mas Doix",
+            "region": "Priorat",
+            "tipo": "Tinto",
+            "uva": "Garnacha",
+            "imagen": "https://images.unsplash.com/photo-1602266950808-28d77a3c2a38?w=400&h=600&fit=crop",
+            "precio": 45.00
+        },
+        {
+            "id": 23,
+            "nombre": "Lustau Amontillado",
+            "bodega": "Emilio Lustau",
+            "region": "Jerez",
+            "tipo": "Blanco",
+            "uva": "Palomino",
+            "imagen": "https://images.unsplash.com/photo-1558346548-54b8e1d03d3c?w=400&h=600&fit=crop",
+            "precio": 15.90
+        },
+        {
+            "id": 24,
+            "nombre": "Marqués de Murrieta Reserva",
+            "bodega": "Marqués de Murrieta",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1553361371-d1d3d6710303?w=400&h=600&fit=crop",
+            "precio": 23.50
+        },
+        {
+            "id": 25,
+            "nombre": "Raventós i Blanc Gran Reserva",
+            "bodega": "Raventós i Blanc",
+            "region": "Cataluña",
+            "tipo": "Espumoso",
+            "uva": "Xarel·lo",
+            "imagen": "https://images.unsplash.com/photo-1558346489-19413928158b?w=400&h=600&fit=crop",
+            "precio": 18.90
+        },
+        {
+            "id": 26,
+            "nombre": "Borsao Tres Picos",
+            "bodega": "Bodegas Borsao",
+            "region": "Campo de Borja",
+            "tipo": "Tinto",
+            "uva": "Garnacha",
+            "imagen": "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400&h=600&fit=crop",
+            "precio": 16.20
+        },
+        {
+            "id": 27,
+            "nombre": "Cava Juvé & Camps",
+            "bodega": "Juvé & Camps",
+            "region": "Cataluña",
+            "tipo": "Espumoso",
+            "uva": "Macabeo",
+            "imagen": "https://images.unsplash.com/photo-1621289675997-b3cfc8e5a2ae?w=400&h=600&fit=crop",
+            "precio": 14.50
+        },
+        {
+            "id": 28,
+            "nombre": "Remírez de Ganuza Reserva",
+            "bodega": "Remírez de Ganuza",
+            "region": "Rioja",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1596363505729-4190a9506133?w=400&h=600&fit=crop",
+            "precio": 32.00
+        },
+        {
+            "id": 29,
+            "nombre": "Pazo de Señorans Albariño",
+            "bodega": "Pazo de Señorans",
+            "region": "Rías Baixas",
+            "tipo": "Blanco",
+            "uva": "Albariño",
+            "imagen": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=400&h=600&fit=crop",
+            "precio": 19.50
+        },
+        {
+            "id": 30,
+            "nombre": "Abadía Retuerta Selección Especial",
+            "bodega": "Abadía Retuerta",
+            "region": "Castilla y León",
+            "tipo": "Tinto",
+            "uva": "Tempranillo",
+            "imagen": "https://images.unsplash.com/photo-1582476563097-d2dcfe1dce12?w=400&h=600&fit=crop",
+            "precio": 19.90
         }
     ];
     
