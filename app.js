@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400&h=600&fit=crop",
+            "imagen": "https://cvne.com/wp-content/uploads/2021/03/vino-cune-crianza.png",
             "precio": 12.50
         },
         {
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rías Baixas",
             "tipo": "Blanco",
             "uva": "Albariño",
-            "imagen": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=600&fit=crop",
+            "imagen": "https://saboreatascaeulalia.com/cdn/shop/files/MartinCodaxAlbarino.jpg?v=1748258357&width=3651",
             "precio": 11.90
         },
         {
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1474722883778-ab3ea2e8d1e4?w=400&h=600&fit=crop",
+            "imagen": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202105/27/00118782300414____3__600x600.jpg",
             "precio": 28.90
         },
         {
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?w=400&h=600&fit=crop",
+            "imagen": "https://tienda.riojalta.com/144-large_default/gran-reserva-904-cosecha-2004-botella-75-cl.jpg",
             "precio": 42.00
         },
         {
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Jerez",
             "tipo": "Blanco",
             "uva": "Palomino",
-            "imagen": "https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?w=400&h=600&fit=crop",
+            "imagen": "https://www.nuevosvinos.es/1007-thickbox_default/la-guita-manzanilla.jpg",
             "precio": 8.90
         },
         {
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Toro",
             "tipo": "Tinto",
             "uva": "Tinta de Toro",
-            "imagen": "https://images.unsplash.com/photo-1586370434639-0fe43b2d32d6?w=400&h=600&fit=crop",
+            "imagen": "https://petramora.com/cdn/shop/files/w-55000409-bodegas-y-vinedos-pintia-2019.jpg?v=1731054173",
             "precio": 38.50
         },
         {
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Valdeorras",
             "tipo": "Blanco",
             "uva": "Godello",
-            "imagen": "https://images.unsplash.com/photo-1598533526265-82d58c707e38?w=400&h=600&fit=crop",
+            "imagen": "https://www.bebevino.es/5201-large_default/godeval-godello.webp",
             "precio": 14.20
         },
         {
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rioja",
             "tipo": "Tinto",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1551318181-655e8a710f0c?w=400&h=600&fit=crop",
+            "imagen": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/v/i/vina-ardanza_2.jpg",
             "precio": 24.50
         },
         {
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "region": "Rueda",
             "tipo": "Rosado",
             "uva": "Tempranillo",
-            "imagen": "https://images.unsplash.com/photo-1585553616434-c10826f01b7c?w=400&h=600&fit=crop",
+            "imagen": "https://www.campoluzenoteca.com/6437-img_ppagezoom/yllera-55-rosado-75cl.jpg",
             "precio": 6.80
         },
         {
